@@ -2,4 +2,36 @@ body {
   font-family: arial;
 }
 
+.dark-container {
+  background-color: #1F2937;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
+.header {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  color: #b8bbc2;
+  font-size: 18;
+}
