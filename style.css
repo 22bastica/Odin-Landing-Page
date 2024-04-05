@@ -144,9 +144,45 @@ p {
 .test-author {
   display: flex;
   justify-content: flex-end;
+  font-size: 24px
 }
 
 /* section three end */
 
 /* section four start */
+
+.blue-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 150px 300px 150px 300px;
+  height: 180px;
+  border-radius: 8px;
+  color: #F9FAF8;
+}
+.call-text {
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+.call-title {
+  font-size: 28px;
+}
+
+.sign-up-light {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  border-color: #F9FAF8;
+  border-radius: 4px;
+  border-style: solid;
+  margin-right: 200px;
+} 
+/* section four end */
+
+
+/* footer start */
 
