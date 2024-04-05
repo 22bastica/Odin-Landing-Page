@@ -89,6 +89,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .title-card {
@@ -122,3 +123,30 @@ p {
   color: #3a4553;
   text-align: center;
 }
+
+/* section two end */
+
+/* section three start */
+
+
+.section-three {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  padding: 150px 400px 150px 400px;
+  vertical-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.test-author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* section three end */
+
+/* section four start */
+
