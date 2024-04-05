@@ -9,15 +9,17 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
+/* header start*/
 .header {
   display: flex;
   align-items: center;
   flex: 1;
   justify-content: space-between;
+  margin-bottom: 75px;
 }
 
 .logo {
@@ -34,4 +36,46 @@ ul {
   gap: 20px;
   color: #b8bbc2;
   font-size: 18;
+}
+/* header end */
+
+/* section one */
+
+.section-one {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 200px;
+  justify-content: center;
+}
+
+.title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  display: flex;
+  flex: 1;
+  margin: 0;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  color: #b8bbc2;
+  font-size: 18px;
+  max-width: 475px;
+  margin-bottom: 20px;
+}
+
+.sign-up-dark {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.egg-image {
+  height: 250px;
+  margin-left: 150px;
 }
